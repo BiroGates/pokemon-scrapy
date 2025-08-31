@@ -1,25 +1,25 @@
 [
 {
     "name": "Bulbasaur",
-    "number": "#0001",
-    "size": 70.0,
+    "number": 1,
+    "size": "0.7 m (2′04″)",
     "types": [
         "Grass",
         "Poison"
     ],
     "evolutions": [
         {
-            "number": "#0001",
+            "number": 1,
             "name": "Bulbasaur",
             "url": "https://pokemondb.net/pokedex/bulbasaur"
         },
         {
-            "number": "#0002",
+            "number": 2,
             "name": "Ivysaur",
             "url": "https://pokemondb.net/pokedex/ivysaur"
         },
         {
-            "number": "#0003",
+            "number": 3,
             "name": "Venusaur",
             "url": "https://pokemondb.net/pokedex/venusaur"
         }
@@ -34,25 +34,744 @@
     ]
 },
 {
-    "name": "Squirtle",
-    "number": "#0007",
-    "size": 50.0,
+    "name": "Fearow",
+    "number": 22,
+    "size": "1.2 m (3′11″)",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "evolutions": [
+        {
+            "number": 21,
+            "name": "Spearow",
+            "url": "https://pokemondb.net/pokedex/spearow"
+        },
+        {
+            "number": 22,
+            "name": "Fearow",
+            "url": "https://pokemondb.net/pokedex/fearow"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 20)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/fearow",
+    "linksToSkillPage": [
+        "/ability/keen-eye"
+    ]
+},
+{
+    "name": "Spearow",
+    "number": 21,
+    "size": "0.3 m (1′00″)",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "evolutions": [
+        {
+            "number": 21,
+            "name": "Spearow",
+            "url": "https://pokemondb.net/pokedex/spearow"
+        },
+        {
+            "number": 22,
+            "name": "Fearow",
+            "url": "https://pokemondb.net/pokedex/fearow"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 20)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/spearow",
+    "linksToSkillPage": [
+        "/ability/keen-eye"
+    ]
+},
+{
+    "name": "Raticate",
+    "number": 20,
+    "size": "0.7 m (2′04″)",
+    "types": [
+        "Normal",
+        "Dark",
+        "Normal"
+    ],
+    "evolutions": [
+        {
+            "number": 19,
+            "name": "Rattata",
+            "url": "https://pokemondb.net/pokedex/rattata"
+        },
+        {
+            "number": 20,
+            "name": "Raticate",
+            "url": "https://pokemondb.net/pokedex/raticate"
+        },
+        {
+            "number": 19,
+            "name": "Rattata",
+            "url": "https://pokemondb.net/pokedex/rattata"
+        },
+        {
+            "number": 20,
+            "name": "Raticate",
+            "url": "https://pokemondb.net/pokedex/raticate"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 20)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 20, Nighttime)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/raticate",
+    "linksToSkillPage": [
+        "/ability/run-away",
+        "/ability/guts",
+        "/ability/gluttony",
+        "/ability/hustle"
+    ]
+},
+{
+    "name": "Raticate",
+    "number": 20,
+    "size": "0.7 m (2′04″)",
+    "types": [
+        "Normal",
+        "Dark",
+        "Normal"
+    ],
+    "evolutions": [
+        {
+            "number": 19,
+            "name": "Rattata",
+            "url": "https://pokemondb.net/pokedex/rattata"
+        },
+        {
+            "number": 20,
+            "name": "Raticate",
+            "url": "https://pokemondb.net/pokedex/raticate"
+        },
+        {
+            "number": 19,
+            "name": "Rattata",
+            "url": "https://pokemondb.net/pokedex/rattata"
+        },
+        {
+            "number": 20,
+            "name": "Raticate",
+            "url": "https://pokemondb.net/pokedex/raticate"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 20)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 20, Nighttime)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/raticate",
+    "linksToSkillPage": [
+        "/ability/run-away",
+        "/ability/guts",
+        "/ability/gluttony",
+        "/ability/hustle"
+    ]
+},
+{
+    "name": "Rattata",
+    "number": 19,
+    "size": "0.3 m (1′00″)",
+    "types": [
+        "Normal",
+        "Dark",
+        "Normal"
+    ],
+    "evolutions": [
+        {
+            "number": 19,
+            "name": "Rattata",
+            "url": "https://pokemondb.net/pokedex/rattata"
+        },
+        {
+            "number": 20,
+            "name": "Raticate",
+            "url": "https://pokemondb.net/pokedex/raticate"
+        },
+        {
+            "number": 19,
+            "name": "Rattata",
+            "url": "https://pokemondb.net/pokedex/rattata"
+        },
+        {
+            "number": 20,
+            "name": "Raticate",
+            "url": "https://pokemondb.net/pokedex/raticate"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 20)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 20, Nighttime)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/rattata",
+    "linksToSkillPage": [
+        "/ability/run-away",
+        "/ability/guts",
+        "/ability/gluttony",
+        "/ability/hustle"
+    ]
+},
+{
+    "name": "Rattata",
+    "number": 19,
+    "size": "0.3 m (1′00″)",
+    "types": [
+        "Normal",
+        "Dark",
+        "Normal"
+    ],
+    "evolutions": [
+        {
+            "number": 19,
+            "name": "Rattata",
+            "url": "https://pokemondb.net/pokedex/rattata"
+        },
+        {
+            "number": 20,
+            "name": "Raticate",
+            "url": "https://pokemondb.net/pokedex/raticate"
+        },
+        {
+            "number": 19,
+            "name": "Rattata",
+            "url": "https://pokemondb.net/pokedex/rattata"
+        },
+        {
+            "number": 20,
+            "name": "Raticate",
+            "url": "https://pokemondb.net/pokedex/raticate"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 20)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 20, Nighttime)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/rattata",
+    "linksToSkillPage": [
+        "/ability/run-away",
+        "/ability/guts",
+        "/ability/gluttony",
+        "/ability/hustle"
+    ]
+},
+{
+    "name": "Pidgeot",
+    "number": 18,
+    "size": "1.5 m (4′11″)",
+    "types": [
+        "Normal",
+        "Flying",
+        "Normal",
+        "Flying"
+    ],
+    "evolutions": [
+        {
+            "number": 16,
+            "name": "Pidgey",
+            "url": "https://pokemondb.net/pokedex/pidgey"
+        },
+        {
+            "number": 17,
+            "name": "Pidgeotto",
+            "url": "https://pokemondb.net/pokedex/pidgeotto"
+        },
+        {
+            "number": 18,
+            "name": "Pidgeot",
+            "url": "https://pokemondb.net/pokedex/pidgeot"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 18)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 36)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/pidgeot",
+    "linksToSkillPage": [
+        "/ability/keen-eye",
+        "/ability/tangled-feet",
+        "/ability/no-guard"
+    ]
+},
+{
+    "name": "Pidgeot",
+    "number": 18,
+    "size": "1.5 m (4′11″)",
+    "types": [
+        "Normal",
+        "Flying",
+        "Normal",
+        "Flying"
+    ],
+    "evolutions": [
+        {
+            "number": 16,
+            "name": "Pidgey",
+            "url": "https://pokemondb.net/pokedex/pidgey"
+        },
+        {
+            "number": 17,
+            "name": "Pidgeotto",
+            "url": "https://pokemondb.net/pokedex/pidgeotto"
+        },
+        {
+            "number": 18,
+            "name": "Pidgeot",
+            "url": "https://pokemondb.net/pokedex/pidgeot"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 18)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 36)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/pidgeot",
+    "linksToSkillPage": [
+        "/ability/keen-eye",
+        "/ability/tangled-feet",
+        "/ability/no-guard"
+    ]
+},
+{
+    "name": "Pidgeotto",
+    "number": 17,
+    "size": "1.1 m (3′07″)",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "evolutions": [
+        {
+            "number": 16,
+            "name": "Pidgey",
+            "url": "https://pokemondb.net/pokedex/pidgey"
+        },
+        {
+            "number": 17,
+            "name": "Pidgeotto",
+            "url": "https://pokemondb.net/pokedex/pidgeotto"
+        },
+        {
+            "number": 18,
+            "name": "Pidgeot",
+            "url": "https://pokemondb.net/pokedex/pidgeot"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 18)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 36)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/pidgeotto",
+    "linksToSkillPage": [
+        "/ability/keen-eye",
+        "/ability/tangled-feet"
+    ]
+},
+{
+    "name": "Pidgey",
+    "number": 16,
+    "size": "0.3 m (1′00″)",
+    "types": [
+        "Normal",
+        "Flying"
+    ],
+    "evolutions": [
+        {
+            "number": 16,
+            "name": "Pidgey",
+            "url": "https://pokemondb.net/pokedex/pidgey"
+        },
+        {
+            "number": 17,
+            "name": "Pidgeotto",
+            "url": "https://pokemondb.net/pokedex/pidgeotto"
+        },
+        {
+            "number": 18,
+            "name": "Pidgeot",
+            "url": "https://pokemondb.net/pokedex/pidgeot"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 18)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 36)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/pidgey",
+    "linksToSkillPage": [
+        "/ability/keen-eye",
+        "/ability/tangled-feet"
+    ]
+},
+{
+    "name": "Beedrill",
+    "number": 15,
+    "size": "1.0 m (3′03″)",
+    "types": [
+        "Bug",
+        "Poison",
+        "Bug",
+        "Poison"
+    ],
+    "evolutions": [
+        {
+            "number": 13,
+            "name": "Weedle",
+            "url": "https://pokemondb.net/pokedex/weedle"
+        },
+        {
+            "number": 14,
+            "name": "Kakuna",
+            "url": "https://pokemondb.net/pokedex/kakuna"
+        },
+        {
+            "number": 15,
+            "name": "Beedrill",
+            "url": "https://pokemondb.net/pokedex/beedrill"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 7)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 10)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/beedrill",
+    "linksToSkillPage": [
+        "/ability/swarm",
+        "/ability/adaptability"
+    ]
+},
+{
+    "name": "Beedrill",
+    "number": 15,
+    "size": "1.0 m (3′03″)",
+    "types": [
+        "Bug",
+        "Poison",
+        "Bug",
+        "Poison"
+    ],
+    "evolutions": [
+        {
+            "number": 13,
+            "name": "Weedle",
+            "url": "https://pokemondb.net/pokedex/weedle"
+        },
+        {
+            "number": 14,
+            "name": "Kakuna",
+            "url": "https://pokemondb.net/pokedex/kakuna"
+        },
+        {
+            "number": 15,
+            "name": "Beedrill",
+            "url": "https://pokemondb.net/pokedex/beedrill"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 7)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 10)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/beedrill",
+    "linksToSkillPage": [
+        "/ability/swarm",
+        "/ability/adaptability"
+    ]
+},
+{
+    "name": "Kakuna",
+    "number": 14,
+    "size": "0.6 m (2′00″)",
+    "types": [
+        "Bug",
+        "Poison"
+    ],
+    "evolutions": [
+        {
+            "number": 13,
+            "name": "Weedle",
+            "url": "https://pokemondb.net/pokedex/weedle"
+        },
+        {
+            "number": 14,
+            "name": "Kakuna",
+            "url": "https://pokemondb.net/pokedex/kakuna"
+        },
+        {
+            "number": 15,
+            "name": "Beedrill",
+            "url": "https://pokemondb.net/pokedex/beedrill"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 7)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 10)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/kakuna",
+    "linksToSkillPage": [
+        "/ability/shed-skin"
+    ]
+},
+{
+    "name": "Weedle",
+    "number": 13,
+    "size": "0.3 m (1′00″)",
+    "types": [
+        "Bug",
+        "Poison"
+    ],
+    "evolutions": [
+        {
+            "number": 13,
+            "name": "Weedle",
+            "url": "https://pokemondb.net/pokedex/weedle"
+        },
+        {
+            "number": 14,
+            "name": "Kakuna",
+            "url": "https://pokemondb.net/pokedex/kakuna"
+        },
+        {
+            "number": 15,
+            "name": "Beedrill",
+            "url": "https://pokemondb.net/pokedex/beedrill"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 7)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 10)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/weedle",
+    "linksToSkillPage": [
+        "/ability/shield-dust"
+    ]
+},
+{
+    "name": "Butterfree",
+    "number": 12,
+    "size": "1.1 m (3′07″)",
+    "types": [
+        "Bug",
+        "Flying"
+    ],
+    "evolutions": [
+        {
+            "number": 10,
+            "name": "Caterpie",
+            "url": "https://pokemondb.net/pokedex/caterpie"
+        },
+        {
+            "number": 11,
+            "name": "Metapod",
+            "url": "https://pokemondb.net/pokedex/metapod"
+        },
+        {
+            "number": 12,
+            "name": "Butterfree",
+            "url": "https://pokemondb.net/pokedex/butterfree"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 7)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 10)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/butterfree",
+    "linksToSkillPage": [
+        "/ability/compound-eyes"
+    ]
+},
+{
+    "name": "Metapod",
+    "number": 11,
+    "size": "0.7 m (2′04″)",
+    "types": [
+        "Bug"
+    ],
+    "evolutions": [
+        {
+            "number": 10,
+            "name": "Caterpie",
+            "url": "https://pokemondb.net/pokedex/caterpie"
+        },
+        {
+            "number": 11,
+            "name": "Metapod",
+            "url": "https://pokemondb.net/pokedex/metapod"
+        },
+        {
+            "number": 12,
+            "name": "Butterfree",
+            "url": "https://pokemondb.net/pokedex/butterfree"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 7)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 10)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/metapod",
+    "linksToSkillPage": [
+        "/ability/shed-skin"
+    ]
+},
+{
+    "name": "Caterpie",
+    "number": 10,
+    "size": "0.3 m (1′00″)",
+    "types": [
+        "Bug"
+    ],
+    "evolutions": [
+        {
+            "number": 10,
+            "name": "Caterpie",
+            "url": "https://pokemondb.net/pokedex/caterpie"
+        },
+        {
+            "number": 11,
+            "name": "Metapod",
+            "url": "https://pokemondb.net/pokedex/metapod"
+        },
+        {
+            "number": 12,
+            "name": "Butterfree",
+            "url": "https://pokemondb.net/pokedex/butterfree"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 7)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 10)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/caterpie",
+    "linksToSkillPage": [
+        "/ability/shield-dust"
+    ]
+},
+{
+    "name": "Blastoise",
+    "number": 9,
+    "size": "1.6 m (5′03″)",
+    "types": [
+        "Water",
+        "Water"
+    ],
+    "evolutions": [
+        {
+            "number": 7,
+            "name": "Squirtle",
+            "url": "https://pokemondb.net/pokedex/squirtle"
+        },
+        {
+            "number": 8,
+            "name": "Wartortle",
+            "url": "https://pokemondb.net/pokedex/wartortle"
+        },
+        {
+            "number": 9,
+            "name": "Blastoise",
+            "url": "https://pokemondb.net/pokedex/blastoise"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 16)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 36)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/blastoise",
+    "linksToSkillPage": [
+        "/ability/torrent",
+        "/ability/mega-launcher"
+    ]
+},
+{
+    "name": "Blastoise",
+    "number": 9,
+    "size": "1.6 m (5′03″)",
+    "types": [
+        "Water",
+        "Water"
+    ],
+    "evolutions": [
+        {
+            "number": 7,
+            "name": "Squirtle",
+            "url": "https://pokemondb.net/pokedex/squirtle"
+        },
+        {
+            "number": 8,
+            "name": "Wartortle",
+            "url": "https://pokemondb.net/pokedex/wartortle"
+        },
+        {
+            "number": 9,
+            "name": "Blastoise",
+            "url": "https://pokemondb.net/pokedex/blastoise"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 16)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 36)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/blastoise",
+    "linksToSkillPage": [
+        "/ability/torrent",
+        "/ability/mega-launcher"
+    ]
+},
+{
+    "name": "Wartortle",
+    "number": 8,
+    "size": "1.0 m (3′03″)",
     "types": [
         "Water"
     ],
     "evolutions": [
         {
-            "number": "#0007",
+            "number": 7,
             "name": "Squirtle",
             "url": "https://pokemondb.net/pokedex/squirtle"
         },
         {
-            "number": "#0008",
+            "number": 8,
             "name": "Wartortle",
             "url": "https://pokemondb.net/pokedex/wartortle"
         },
         {
-            "number": "#0009",
+            "number": 9,
+            "name": "Blastoise",
+            "url": "https://pokemondb.net/pokedex/blastoise"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 16)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 36)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/wartortle",
+    "linksToSkillPage": [
+        "/ability/torrent"
+    ]
+},
+{
+    "name": "Squirtle",
+    "number": 7,
+    "size": "0.5 m (1′08″)",
+    "types": [
+        "Water"
+    ],
+    "evolutions": [
+        {
+            "number": 7,
+            "name": "Squirtle",
+            "url": "https://pokemondb.net/pokedex/squirtle"
+        },
+        {
+            "number": 8,
+            "name": "Wartortle",
+            "url": "https://pokemondb.net/pokedex/wartortle"
+        },
+        {
+            "number": 9,
             "name": "Blastoise",
             "url": "https://pokemondb.net/pokedex/blastoise"
         }
@@ -68,8 +787,8 @@
 },
 {
     "name": "Charizard",
-    "number": "#0006",
-    "size": 170.0,
+    "number": 6,
+    "size": "1.7 m (5′07″)",
     "types": [
         "Fire",
         "Flying",
@@ -80,17 +799,17 @@
     ],
     "evolutions": [
         {
-            "number": "#0004",
+            "number": 4,
             "name": "Charmander",
             "url": "https://pokemondb.net/pokedex/charmander"
         },
         {
-            "number": "#0005",
+            "number": 5,
             "name": "Charmeleon",
             "url": "https://pokemondb.net/pokedex/charmeleon"
         },
         {
-            "number": "#0006",
+            "number": 6,
             "name": "Charizard",
             "url": "https://pokemondb.net/pokedex/charizard"
         }
@@ -108,8 +827,8 @@
 },
 {
     "name": "Charizard",
-    "number": "#0006",
-    "size": 170.0,
+    "number": 6,
+    "size": "1.7 m (5′07″)",
     "types": [
         "Fire",
         "Flying",
@@ -120,17 +839,17 @@
     ],
     "evolutions": [
         {
-            "number": "#0004",
+            "number": 4,
             "name": "Charmander",
             "url": "https://pokemondb.net/pokedex/charmander"
         },
         {
-            "number": "#0005",
+            "number": 5,
             "name": "Charmeleon",
             "url": "https://pokemondb.net/pokedex/charmeleon"
         },
         {
-            "number": "#0006",
+            "number": 6,
             "name": "Charizard",
             "url": "https://pokemondb.net/pokedex/charizard"
         }
@@ -148,8 +867,8 @@
 },
 {
     "name": "Charizard",
-    "number": "#0006",
-    "size": 170.0,
+    "number": 6,
+    "size": "1.7 m (5′07″)",
     "types": [
         "Fire",
         "Flying",
@@ -160,17 +879,17 @@
     ],
     "evolutions": [
         {
-            "number": "#0004",
+            "number": 4,
             "name": "Charmander",
             "url": "https://pokemondb.net/pokedex/charmander"
         },
         {
-            "number": "#0005",
+            "number": 5,
             "name": "Charmeleon",
             "url": "https://pokemondb.net/pokedex/charmeleon"
         },
         {
-            "number": "#0006",
+            "number": 6,
             "name": "Charizard",
             "url": "https://pokemondb.net/pokedex/charizard"
         }
@@ -188,24 +907,24 @@
 },
 {
     "name": "Charmeleon",
-    "number": "#0005",
-    "size": 110.0,
+    "number": 5,
+    "size": "1.1 m (3′07″)",
     "types": [
         "Fire"
     ],
     "evolutions": [
         {
-            "number": "#0004",
+            "number": 4,
             "name": "Charmander",
             "url": "https://pokemondb.net/pokedex/charmander"
         },
         {
-            "number": "#0005",
+            "number": 5,
             "name": "Charmeleon",
             "url": "https://pokemondb.net/pokedex/charmeleon"
         },
         {
-            "number": "#0006",
+            "number": 6,
             "name": "Charizard",
             "url": "https://pokemondb.net/pokedex/charizard"
         }
@@ -221,24 +940,24 @@
 },
 {
     "name": "Charmander",
-    "number": "#0004",
-    "size": 60.0,
+    "number": 4,
+    "size": "0.6 m (2′00″)",
     "types": [
         "Fire"
     ],
     "evolutions": [
         {
-            "number": "#0004",
+            "number": 4,
             "name": "Charmander",
             "url": "https://pokemondb.net/pokedex/charmander"
         },
         {
-            "number": "#0005",
+            "number": 5,
             "name": "Charmeleon",
             "url": "https://pokemondb.net/pokedex/charmeleon"
         },
         {
-            "number": "#0006",
+            "number": 6,
             "name": "Charizard",
             "url": "https://pokemondb.net/pokedex/charizard"
         }
@@ -254,8 +973,8 @@
 },
 {
     "name": "Venusaur",
-    "number": "#0003",
-    "size": 200.0,
+    "number": 3,
+    "size": "2.0 m (6′07″)",
     "types": [
         "Grass",
         "Poison",
@@ -264,17 +983,17 @@
     ],
     "evolutions": [
         {
-            "number": "#0001",
+            "number": 1,
             "name": "Bulbasaur",
             "url": "https://pokemondb.net/pokedex/bulbasaur"
         },
         {
-            "number": "#0002",
+            "number": 2,
             "name": "Ivysaur",
             "url": "https://pokemondb.net/pokedex/ivysaur"
         },
         {
-            "number": "#0003",
+            "number": 3,
             "name": "Venusaur",
             "url": "https://pokemondb.net/pokedex/venusaur"
         }
@@ -291,8 +1010,8 @@
 },
 {
     "name": "Venusaur",
-    "number": "#0003",
-    "size": 200.0,
+    "number": 3,
+    "size": "2.0 m (6′07″)",
     "types": [
         "Grass",
         "Poison",
@@ -301,17 +1020,17 @@
     ],
     "evolutions": [
         {
-            "number": "#0001",
+            "number": 1,
             "name": "Bulbasaur",
             "url": "https://pokemondb.net/pokedex/bulbasaur"
         },
         {
-            "number": "#0002",
+            "number": 2,
             "name": "Ivysaur",
             "url": "https://pokemondb.net/pokedex/ivysaur"
         },
         {
-            "number": "#0003",
+            "number": 3,
             "name": "Venusaur",
             "url": "https://pokemondb.net/pokedex/venusaur"
         }
@@ -328,25 +1047,25 @@
 },
 {
     "name": "Ivysaur",
-    "number": "#0002",
-    "size": 100.0,
+    "number": 2,
+    "size": "1.0 m (3′03″)",
     "types": [
         "Grass",
         "Poison"
     ],
     "evolutions": [
         {
-            "number": "#0001",
+            "number": 1,
             "name": "Bulbasaur",
             "url": "https://pokemondb.net/pokedex/bulbasaur"
         },
         {
-            "number": "#0002",
+            "number": 2,
             "name": "Ivysaur",
             "url": "https://pokemondb.net/pokedex/ivysaur"
         },
         {
-            "number": "#0003",
+            "number": 3,
             "name": "Venusaur",
             "url": "https://pokemondb.net/pokedex/venusaur"
         }

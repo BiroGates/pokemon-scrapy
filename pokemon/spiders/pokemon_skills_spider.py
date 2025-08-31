@@ -50,6 +50,8 @@ class PokemonSkillSpider(scrapy.Spider):
             for link in links:
                 pokemon['skills'].append(skillsHash[link])
             
+            if pokemon["number"] == 10:
+                print(f"CARTERPI IS HERE FUCK");
             yield {
                 "name": pokemon["name"],
                 "number": pokemon["number"],
@@ -57,6 +59,7 @@ class PokemonSkillSpider(scrapy.Spider):
                 "types": pokemon["types"],
                 "skills": pokemon["skills"],
                 "evolutions": pokemon["evolutions"],
+                "evolutionArrowsRaw": pokemon["evolutionArrowsRaw"],
                 "url": pokemon["url"],
             }
 

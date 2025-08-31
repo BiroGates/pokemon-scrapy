@@ -45,5 +45,19 @@ Here we need to have a special treatment
 
 
 
+## TODO:
+- Review size logic
+- Gotta be carrefull to the duplicate ones
+
 
 ## python -m scripts.run-spiders
+
+
+DB_USERNAME:
+pokemon_test_api
+
+DB_PASSWORD:
+P7FOkUbusgrMyuLv
+
+DB_URI:
+mongodb+srv://pokemon_test_api:P7FOkUbusgrMyuLv@pokemon-data.ajkhl9k.mongodb.net/?retryWrites=true&w=majority&appName=pokemon-data

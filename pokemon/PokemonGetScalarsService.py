@@ -16,12 +16,11 @@ class PokemonGetScalarsService:
 
     def getNumber(self, response):
         number = response.css("strong::text").get()
-        return f"#{number}";
+        return int(number);
 
     def getSizeInCm(self, response):
         size = response.css("table.vitals-table tr:contains('Height') td::text").get()
-        treatedSize = round(float(re.sub(r'\s[a-z]', '', size.split(' ')[0])) * 100, 2)
-        return treatedSize
+        return size;
 
     def getWeight(self, response):
         weight = response.css("table.vitals-table tr:contains('Weight') td::text").get()
@@ -38,7 +37,7 @@ class PokemonGetScalarsService:
         
         for card in cards:
             evolution = {};
-            evolution["number"] = card.css("div.infocard small::text").get()
+            evolution["number"] = int(card.css("div.infocard small::text").get().replace("#", ""));
             evolution["name"] = card.css("div.infocard a.ent-name::text").get()
             evolution["url"] = self.baseUrl + evolution["name"].lower()
             evolutions.append(evolution)

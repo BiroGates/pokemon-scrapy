@@ -14,7 +14,7 @@ class PokemonSpider(scrapy.Spider):
         i=0
         for name in pokemonNames:
             i+=1
-            if i > 10:
+            if i > 30:
                 break;
             yield response.follow(
                 self.baseUrl + name,
