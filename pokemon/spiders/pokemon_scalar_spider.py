@@ -14,10 +14,10 @@ class PokemonSpider(scrapy.Spider):
         i=0
         for name in pokemonNames:
             i+=1
-            if i > 1:
+            if i > 10:
                 break;
             yield response.follow(
-                self.baseUrl + "eevee",
+                self.baseUrl + name,
                 callback=self.getPokemons,
                 meta={"logger": self.logger},
                 dont_filter=True
@@ -32,5 +32,6 @@ class PokemonSpider(scrapy.Spider):
             "types": pokemonService.getTypes(response),
             "evolutions": pokemonService.getEvolutions(response),
             "evolutionArrowsRaw": pokemonService.getEvolutionArrows(response),
+            "url": self.baseUrl + pokemonService.getName(response).lower(),
             "linksToSkillPage": pokemonService.getLinksToSkillPage(response),
         }

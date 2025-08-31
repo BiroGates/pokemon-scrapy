@@ -1,0 +1,363 @@
+[
+{
+    "name": "Bulbasaur",
+    "number": "#0001",
+    "size": 70.0,
+    "types": [
+        "Grass",
+        "Poison"
+    ],
+    "evolutions": [
+        {
+            "number": "#0001",
+            "name": "Bulbasaur",
+            "url": "https://pokemondb.net/pokedex/bulbasaur"
+        },
+        {
+            "number": "#0002",
+            "name": "Ivysaur",
+            "url": "https://pokemondb.net/pokedex/ivysaur"
+        },
+        {
+            "number": "#0003",
+            "name": "Venusaur",
+            "url": "https://pokemondb.net/pokedex/venusaur"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 16)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 32)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/bulbasaur",
+    "linksToSkillPage": [
+        "/ability/overgrow"
+    ]
+},
+{
+    "name": "Squirtle",
+    "number": "#0007",
+    "size": 50.0,
+    "types": [
+        "Water"
+    ],
+    "evolutions": [
+        {
+            "number": "#0007",
+            "name": "Squirtle",
+            "url": "https://pokemondb.net/pokedex/squirtle"
+        },
+        {
+            "number": "#0008",
+            "name": "Wartortle",
+            "url": "https://pokemondb.net/pokedex/wartortle"
+        },
+        {
+            "number": "#0009",
+            "name": "Blastoise",
+            "url": "https://pokemondb.net/pokedex/blastoise"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 16)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 36)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/squirtle",
+    "linksToSkillPage": [
+        "/ability/torrent"
+    ]
+},
+{
+    "name": "Charizard",
+    "number": "#0006",
+    "size": 170.0,
+    "types": [
+        "Fire",
+        "Flying",
+        "Fire",
+        "Dragon",
+        "Fire",
+        "Flying"
+    ],
+    "evolutions": [
+        {
+            "number": "#0004",
+            "name": "Charmander",
+            "url": "https://pokemondb.net/pokedex/charmander"
+        },
+        {
+            "number": "#0005",
+            "name": "Charmeleon",
+            "url": "https://pokemondb.net/pokedex/charmeleon"
+        },
+        {
+            "number": "#0006",
+            "name": "Charizard",
+            "url": "https://pokemondb.net/pokedex/charizard"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 16)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 36)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/charizard",
+    "linksToSkillPage": [
+        "/ability/blaze",
+        "/ability/tough-claws",
+        "/ability/drought"
+    ]
+},
+{
+    "name": "Charizard",
+    "number": "#0006",
+    "size": 170.0,
+    "types": [
+        "Fire",
+        "Flying",
+        "Fire",
+        "Dragon",
+        "Fire",
+        "Flying"
+    ],
+    "evolutions": [
+        {
+            "number": "#0004",
+            "name": "Charmander",
+            "url": "https://pokemondb.net/pokedex/charmander"
+        },
+        {
+            "number": "#0005",
+            "name": "Charmeleon",
+            "url": "https://pokemondb.net/pokedex/charmeleon"
+        },
+        {
+            "number": "#0006",
+            "name": "Charizard",
+            "url": "https://pokemondb.net/pokedex/charizard"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 16)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 36)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/charizard",
+    "linksToSkillPage": [
+        "/ability/blaze",
+        "/ability/tough-claws",
+        "/ability/drought"
+    ]
+},
+{
+    "name": "Charizard",
+    "number": "#0006",
+    "size": 170.0,
+    "types": [
+        "Fire",
+        "Flying",
+        "Fire",
+        "Dragon",
+        "Fire",
+        "Flying"
+    ],
+    "evolutions": [
+        {
+            "number": "#0004",
+            "name": "Charmander",
+            "url": "https://pokemondb.net/pokedex/charmander"
+        },
+        {
+            "number": "#0005",
+            "name": "Charmeleon",
+            "url": "https://pokemondb.net/pokedex/charmeleon"
+        },
+        {
+            "number": "#0006",
+            "name": "Charizard",
+            "url": "https://pokemondb.net/pokedex/charizard"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 16)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 36)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/charizard",
+    "linksToSkillPage": [
+        "/ability/blaze",
+        "/ability/tough-claws",
+        "/ability/drought"
+    ]
+},
+{
+    "name": "Charmeleon",
+    "number": "#0005",
+    "size": 110.0,
+    "types": [
+        "Fire"
+    ],
+    "evolutions": [
+        {
+            "number": "#0004",
+            "name": "Charmander",
+            "url": "https://pokemondb.net/pokedex/charmander"
+        },
+        {
+            "number": "#0005",
+            "name": "Charmeleon",
+            "url": "https://pokemondb.net/pokedex/charmeleon"
+        },
+        {
+            "number": "#0006",
+            "name": "Charizard",
+            "url": "https://pokemondb.net/pokedex/charizard"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 16)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 36)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/charmeleon",
+    "linksToSkillPage": [
+        "/ability/blaze"
+    ]
+},
+{
+    "name": "Charmander",
+    "number": "#0004",
+    "size": 60.0,
+    "types": [
+        "Fire"
+    ],
+    "evolutions": [
+        {
+            "number": "#0004",
+            "name": "Charmander",
+            "url": "https://pokemondb.net/pokedex/charmander"
+        },
+        {
+            "number": "#0005",
+            "name": "Charmeleon",
+            "url": "https://pokemondb.net/pokedex/charmeleon"
+        },
+        {
+            "number": "#0006",
+            "name": "Charizard",
+            "url": "https://pokemondb.net/pokedex/charizard"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 16)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 36)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/charmander",
+    "linksToSkillPage": [
+        "/ability/blaze"
+    ]
+},
+{
+    "name": "Venusaur",
+    "number": "#0003",
+    "size": 200.0,
+    "types": [
+        "Grass",
+        "Poison",
+        "Grass",
+        "Poison"
+    ],
+    "evolutions": [
+        {
+            "number": "#0001",
+            "name": "Bulbasaur",
+            "url": "https://pokemondb.net/pokedex/bulbasaur"
+        },
+        {
+            "number": "#0002",
+            "name": "Ivysaur",
+            "url": "https://pokemondb.net/pokedex/ivysaur"
+        },
+        {
+            "number": "#0003",
+            "name": "Venusaur",
+            "url": "https://pokemondb.net/pokedex/venusaur"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 16)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 32)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/venusaur",
+    "linksToSkillPage": [
+        "/ability/overgrow",
+        "/ability/thick-fat"
+    ]
+},
+{
+    "name": "Venusaur",
+    "number": "#0003",
+    "size": 200.0,
+    "types": [
+        "Grass",
+        "Poison",
+        "Grass",
+        "Poison"
+    ],
+    "evolutions": [
+        {
+            "number": "#0001",
+            "name": "Bulbasaur",
+            "url": "https://pokemondb.net/pokedex/bulbasaur"
+        },
+        {
+            "number": "#0002",
+            "name": "Ivysaur",
+            "url": "https://pokemondb.net/pokedex/ivysaur"
+        },
+        {
+            "number": "#0003",
+            "name": "Venusaur",
+            "url": "https://pokemondb.net/pokedex/venusaur"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 16)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 32)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/venusaur",
+    "linksToSkillPage": [
+        "/ability/overgrow",
+        "/ability/thick-fat"
+    ]
+},
+{
+    "name": "Ivysaur",
+    "number": "#0002",
+    "size": 100.0,
+    "types": [
+        "Grass",
+        "Poison"
+    ],
+    "evolutions": [
+        {
+            "number": "#0001",
+            "name": "Bulbasaur",
+            "url": "https://pokemondb.net/pokedex/bulbasaur"
+        },
+        {
+            "number": "#0002",
+            "name": "Ivysaur",
+            "url": "https://pokemondb.net/pokedex/ivysaur"
+        },
+        {
+            "number": "#0003",
+            "name": "Venusaur",
+            "url": "https://pokemondb.net/pokedex/venusaur"
+        }
+    ],
+    "evolutionArrowsRaw": [
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 16)</small></span>",
+        "<span class=\"infocard infocard-arrow\"><i class=\"icon-arrow icon-arrow-e\"></i><small>(Level 32)</small></span>"
+    ],
+    "url": "https://pokemondb.net/pokedex/ivysaur",
+    "linksToSkillPage": [
+        "/ability/overgrow"
+    ]
+}
+]

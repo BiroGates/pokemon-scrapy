@@ -56,6 +56,8 @@ class PokemonSkillSpider(scrapy.Spider):
                 "size": pokemon["size"],
                 "types": pokemon["types"],
                 "skills": pokemon["skills"],
+                "evolutions": pokemon["evolutions"],
+                "url": pokemon["url"],
             }
 
 
