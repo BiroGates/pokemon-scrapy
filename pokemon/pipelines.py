@@ -7,6 +7,9 @@
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
 import re;
+import pymongo
+
+
 
 class PokemonPipeline:
     def process_item(self, item, spider):
@@ -14,6 +17,8 @@ class PokemonPipeline:
         self.removeDuplicatesEvolutions(item);
         self.removeDuplicatesTypes(item);
         self.converteSizeInCm(item);
+        self.convertWeight(item);
+        self.treatEffectiveness(item);
         return item
     
 
@@ -94,10 +99,52 @@ class PokemonPipeline:
 
     def converteSizeInCm(self, pokemon):
         try:
-            numbersRegex = r"[0-9].[0-9]{0,3}";
+            numbersRegex = r"^[0-9]{0,3}.[0-9]{0,3}";
             treatedSize = float(re.search(numbersRegex, pokemon["size"]).group());
             pokemon["size"] = round(treatedSize * 100, 2);
         except Exception as e:
             print(f"GOT AN ERROR ON converteSizeInCm WITH POKEMON: {pokemon} AND ERROR MESSAGE: {e}")
 
 
+    def convertWeight(self, pokemon):
+        try:
+            numbersRegex = r"^[0-9]{0,3}.[0-9]{0,3}";
+            treatedWeight = float(re.search(numbersRegex, pokemon["weight"]).group());
+            pokemon["weight"] = round(treatedWeight, 2);
+    
+        except Exception as e:
+            print(f"GOT AN ERROR ON convertWeight WITH POKEMON: {pokemon} AND ERROR MESSAGE: {e}")
+
+    def treatEffectiveness(self, pokemon):
+        for effectiveness in pokemon["effectiveness"]:
+            if effectiveness['value'] == 'Â½':
+                effectiveness['value'] = "1/2";
+            
+            if effectiveness['value'] == 'Â¼':
+                effectiveness['value'] = "1/4";
+
+class MongoPipeline:
+    collection_name = "pokemon_collection"
+
+    def __init__(self, mongo_uri, mongo_db):
+        self.mongo_uri = mongo_uri
+        self.mongo_db = mongo_db
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        return cls(
+            mongo_uri=crawler.settings.get("MONGO_URI"),
+            mongo_db=crawler.settings.get("MONGO_DATABASE", "items"),
+        )
+
+    def open_spider(self, spider):
+        self.client = pymongo.MongoClient(self.mongo_uri)
+        self.db = self.client[self.mongo_db]
+
+    def close_spider(self, spider):
+        self.client.close()
+
+    def process_item(self, item, spider):
+        print("INSERTING ITENS ON MONGODB");
+        self.db[self.collection_name].insert_one(ItemAdapter(item).asdict())
+        return item

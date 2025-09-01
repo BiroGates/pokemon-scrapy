@@ -85,3 +85,6 @@ DOWNLOAD_DELAY = 1
 
 # Set settings whose default value is deprecated to a future-proof value
 FEED_EXPORT_ENCODING = "utf-8"
+
+MONGO_URI = 'mongodb+srv://pokemon_test_api:P7FOkUbusgrMyuLv@pokemon-data.ajkhl9k.mongodb.net/?retryWrites=true&w=majority&appName=pokemon-data';
+MONGO_DATABASE = 'pokemondatabase';

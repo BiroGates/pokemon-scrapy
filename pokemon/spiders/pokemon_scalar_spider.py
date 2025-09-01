@@ -13,9 +13,6 @@ class PokemonSpider(scrapy.Spider):
         pokemonNames = response.css("a.ent-name::text").getall()
         i=0
         for name in pokemonNames:
-            i+=1
-            if i > 30:
-                break;
             yield response.follow(
                 self.baseUrl + name,
                 callback=self.getPokemons,
@@ -31,6 +28,8 @@ class PokemonSpider(scrapy.Spider):
             "size": pokemonService.getSizeInCm(response),
             "types": pokemonService.getTypes(response),
             "evolutions": pokemonService.getEvolutions(response),
+            "weight": pokemonService.getWeight(response),
+            "effectiveness": pokemonService.getEffectiveness(response),
             "evolutionArrowsRaw": pokemonService.getEvolutionArrows(response),
             "url": self.baseUrl + pokemonService.getName(response).lower(),
             "linksToSkillPage": pokemonService.getLinksToSkillPage(response),

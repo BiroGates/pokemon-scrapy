@@ -10,6 +10,7 @@ class PokemonSkillSpider(scrapy.Spider):
 
     custom_settings = {
         'ITEM_PIPELINES': {
+            'pokemon.pipelines.MongoPipeline': 400,
             'pokemon.pipelines.PokemonPipeline': 300
         }
     }
@@ -46,22 +47,18 @@ class PokemonSkillSpider(scrapy.Spider):
             pokemon['skills'] = [];
             links = pokemon['linksToSkillPage'];
 
-
             for link in links:
                 pokemon['skills'].append(skillsHash[link])
-            
-            if pokemon["number"] == 10:
-                print(f"CARTERPI IS HERE FUCK");
+
             yield {
                 "name": pokemon["name"],
                 "number": pokemon["number"],
                 "size": pokemon["size"],
+                "weight": pokemon["weight"],
+                "effectiveness": pokemon["effectiveness"],
                 "types": pokemon["types"],
                 "skills": pokemon["skills"],
                 "evolutions": pokemon["evolutions"],
                 "evolutionArrowsRaw": pokemon["evolutionArrowsRaw"],
                 "url": pokemon["url"],
             }
-
-
-

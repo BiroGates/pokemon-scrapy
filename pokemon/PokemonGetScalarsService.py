@@ -24,8 +24,7 @@ class PokemonGetScalarsService:
 
     def getWeight(self, response):
         weight = response.css("table.vitals-table tr:contains('Weight') td::text").get()
-        treatedWeight = re.sub(r'\s[a-z]', '', weight.split(' ')[0])
-        return treatedWeight
+        return weight;
 
     def getTypes(self, response):
         types = response.css("table.vitals-table td a.type-icon::text").getall()
@@ -51,3 +50,53 @@ class PokemonGetScalarsService:
     def getLinksToSkillPage(self, response: Response):
         skillsRaw = response.css("table.vitals-table tr:contains('Abilities') td span a::attr(href)").getall()
         return skillsRaw;
+
+    def getEffectiveness(self, response: Response):
+        tables = response.css('table.type-table');
+        self.logger.info(f"TABLES: {tables}");
+
+        allTypes = []
+        allEffectiveness = [];
+        
+        outpout = [];
+        
+        i = 0;
+        # For some fucking reason its returning 4 tables but in the html we only have 2;
+        for table in tables:
+            if i > 1:
+                break;
+            infoRow = table.css('tr');
+            
+            self.logger.info(f"ITERATING IN THE: {i} TABLE");
+            self.logger.info(f"infoRow: {infoRow}");
+            
+            for idx, row in enumerate(infoRow):
+                if idx == 0:
+                    allTypes += row.css('th a::attr(title)').getall();
+                    self.logger.info(f"typesOutput: {allTypes}");
+                else:
+                    valuesRaw = row.css('td').getall();
+                    self.logger.info(f"valuesRaw: {valuesRaw}");
+                    
+                    for value in valuesRaw:
+                        valuefound = re.search(r'>([^<]+)<', value);
+                        if valuefound:
+                            self.logger.info(f"VALUE FOUND: {valuefound.group(1)}")
+                            allEffectiveness.append(valuefound.group(1));
+                        else:
+                            allEffectiveness.append("0");
+            i+=1;
+
+        for idx in range(len(allTypes)):
+            outpout.append({
+                "type": allTypes[idx],
+                "value": allEffectiveness[idx],
+            });
+
+        self.logger.info(f"secondTablevaluesOutpout: {allTypes}");
+        self.logger.info(f"secondTablevaluesOutpout: {allEffectiveness}");
+        self.logger.info(f"output===: {outpout}");
+        
+        return outpout;
+
+
